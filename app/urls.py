@@ -5,8 +5,8 @@ from app import views
 
 urlpatterns = [
     path('',views.index, name="home"),
-    path('programs',views.programs, name="program"),
-  
+    path('bim',views.bim, name="bim"),
+    path('bsccsit',views.bsccsit, name="bsccsit"),
     path('about',views.about, name="about"),
     path('contact',views.contact, name="contact"),
     path('online',views.online, name="online"),
