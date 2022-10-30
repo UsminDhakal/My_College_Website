@@ -1,5 +1,52 @@
 {% extends "base.html" %}
 {% block title %}BBS{% endblock title %}
 {% block body %}
-
+<div class="container-fluid my-10 px-0 ">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/static/img/2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <h3 class="text-danger">What's in BSc.CSIT:</h3>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-0 py-5 px-5">
+      <div class="col d-flex align-items-start px-2">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4"style="color:red;"><i class="bi bi-journal-code" style="color:black;"></i>Course Name</h3>
+          <h4 class="mx-4 py-1">BSc.CSIT</<h4>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start px-2">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4" style="color:red;"><i class="bi bi-calendar-event" style="color:black;"></i>Course Duration</h3>
+          <h4 class="mx-4 py-1">4 years</<h4>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start px-2">
+        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4" style="color:red;"><i class="bi bi-alarm" style="color:black;"></i>Credit Hour</h3>
+          <h4 class="mx-4 py-1">4 years</<h4>
+        </div>
+  
+       
+      </div>
+      <div class="col d-flex align-items-start px-2">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+          <div>
+            <h3 class="fw-bold mb-0 fs-4" style="color:red;">Affiliation</h3>
+            <h4 class="mx-4 py-1"><i class="bi bi-mortarboard-fill" style="color:black;"></i>T.U.</h4>
+          </div>
+    
+         
+        </div>
+      
+      
+    </div>
 {% endblock body %}

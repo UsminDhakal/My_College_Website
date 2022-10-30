@@ -10,6 +10,11 @@ urlpatterns = [
     path('about',views.about, name="about"),
     path('contact',views.contact, name="contact"),
     path('online',views.online, name="online"),
-    path('gallery',views.gallery, name="gallery")
+    path('gallery',views.gallery, name="gallery"),
+    path('bhm',views.bhm, name="bhm"),
+    path('mbs',views.mbs, name="mbs"),
+    path('bca',views.bca, name="bca"),
+    path('bbs',views.bbs, name="bbs")
+
     
 ]
